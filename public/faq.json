@@ -1,13 +1,16 @@
 [
   {
+    "order": 1,
     "question": "How does your agency excel in community management?",
     "answer": "Our expert community managers foster vibrant and engaged online communities within the Web3 ecosystem. They drive participation, cultivate brand advocates, and ensure a sense of belonging."
   },
   {
+    "order": 2,
     "question": "what is the client onboarding process like?",
     "answer": "Our client onboarding process is streamlined and straightforward. We begin with an initial consultation, develop a tailored marketing strategy, provide a proposal, kick off the campaign, provide regular updates and reports, and maintain open communication throughout the engagement."
   },
   {
+    "order": 3,
     "question": "How can I get started with your agency?",
     "answer": "Getting started is easy! Simply Book a call and meet with one of our experts to discuss your specific marketing needs and how we can help you achieve your goals in the Web3 ecosystem."
   }

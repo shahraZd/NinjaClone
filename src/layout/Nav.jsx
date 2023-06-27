@@ -63,7 +63,7 @@ function Nav() {
           </ul>
           <ul>
             <li>
-              <Link href="/register">
+              <Link href="/contact">
                 <ButtonFilled content={"Book Intro Call"} />
               </Link>
             </li>
