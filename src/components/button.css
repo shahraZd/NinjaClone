@@ -1,0 +1,34 @@
+.fill-btn {
+  width: 100%;
+  line-height: 3.125rem;
+  z-index: 2;
+  overflow: hidden;
+  margin: 15px 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .fill-btn {
+    line-height: 3.125rem;
+  }
+}
+
+.arrow_btn::before {
+  position: absolute;
+  top: 0.875rem;
+  right: 0.84375rem;
+  background: var(--blue-color);
+  -webkit-mask-image: url(//ninjapromo.io/wp-content/themes/ninjapromo/assets/img/svg/arrow-right.svg);
+  mask-image: url(//ninjapromo.io/wp-content/themes/ninjapromo/assets/img/svg/arrow-right.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  width: 0.84375rem;
+  height: 0.75rem;
+}
+.arrow_btn::after,
+.arrow_btn::before {
+  content: "";
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}

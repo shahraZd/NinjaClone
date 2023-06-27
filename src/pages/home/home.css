@@ -1,0 +1,211 @@
+/** HERO SECTION **/
+
+.hero_section_bg {
+  background: url("../../../public/hero-bg-front.jpg") no-repeat center;
+  background-size: cover;
+  /* min-height: fill-available; */
+  min-height: 750px;
+  /* min-height: -webkit-fill-available; */
+  position: relative;
+  min-width: 100%;
+  z-index: -1;
+}
+@media (max-width: 1000px) {
+  .hero_section_bg {
+    min-height: 850px;
+  }
+}
+
+.hero_section_container {
+  position: absolute;
+  display: flex;
+  margin: 0 auto;
+  padding: 100px 20px;
+  /* top: 100px; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  min-height: 100%;
+  max-width: 1020px;
+}
+
+.hero-slider {
+  vertical-align: middle;
+  display: inline-block;
+  height: 4.75rem;
+  width: 22.875rem;
+  overflow: hidden;
+  padding: 0 0.75rem;
+  position: relative;
+  z-index: -1;
+}
+@media (max-width: 1000px) {
+  .hero-slider {
+    height: 2.25rem;
+    width: 11.25rem;
+    padding: 0;
+  }
+}
+
+.hero-slider__words {
+  position: relative;
+  animation: marquee 20s linear infinite;
+  animation-delay: 2s;
+}
+
+.hero-slider__words li {
+  font-size: 3.8rem;
+  text-align: center;
+  height: var(--hero-slider-height);
+  box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+  .hero-slider__words li {
+    font-size: 2.25rem;
+    text-align: center;
+    height: 2.25rem;
+    box-sizing: border-box;
+  }
+}
+
+@keyframes marquee {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  12.5% {
+    -webkit-transform: translateY(calc(2.25rem * -1));
+    transform: translateY(calc(2.25rem * -1));
+  }
+  25%,
+  75% {
+    -webkit-transform: translateY(calc(2.25rem * -2));
+    transform: translateY(calc(2.25rem * -2));
+  }
+  37.5%,
+  62.5% {
+    -webkit-transform: translateY(calc(2.25rem * -3));
+    transform: translateY(calc(2.25rem * -3));
+  }
+  50% {
+    -webkit-transform: translateY(calc(2.25rem * -4));
+    transform: translateY(calc(2.25rem * -4));
+  }
+  87.5% {
+    -webkit-transform: translateY(4.75rem);
+    transform: translateY(2.25rem);
+  }
+}
+
+.hero-section_desc {
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  color: #fff;
+}
+
+.hero-section_btns {
+  /* margin-bottom: 2.5rem; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* grid-gap: 4.1875rem; */
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hero-award-img {
+  width: auto;
+  height: 70px;
+  max-height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center;
+  object-position: center;
+  margin: 0 15px;
+}
+/** END HERO SECTION **/
+
+/** SERVICES SECTION **/
+.services-section {
+  background-color: #ecebf9;
+  min-height: 100%;
+  /* position: absolute; */
+  min-width: 100%;
+  z-index: -1;
+  padding: 50px;
+}
+
+.services-info {
+  margin-bottom: 5.125rem;
+}
+
+.services-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/** END SERVICES SECTION **/
+
+/** CTA SECTION **/
+
+.cta-section {
+  background: url("../../../public/cta.png") center center/80% no-repeat #121212;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+/** END CTA SECTION **/
+
+/** TESTIMONIALS SECTION **/
+
+.reviews_item {
+  border-right: 1px solid #fff;
+  padding-right: 3.0625rem;
+  margin-right: 50px;
+  padding-left: 1rem;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Firefox */
+.scroll_box {
+  /* scrollbar-width: thin; */
+  scrollbar-color: rgba(20, 45, 224, 0.2) #070f07;
+  scrollbar-width: none;
+}
+
+/* Chrome, Edge, and Safari */
+.scroll_box::-webkit-scrollbar {
+  /* width: 15px; */
+  display: none;
+}
+
+/* .scroll_box::-webkit-scrollbar-track {
+  background: #070f07;
+  border-radius: 5px;
+  scrollbar-width: none;
+}
+
+.scroll_box::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 29, 235, 0.2);
+  border-radius: 14px;
+  scrollbar-width: none;
+  border: 3px solid #070f07;
+} */
+
+/** END TESTIMONIALS SECTION **/

@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Community Management & Engagement",
+    "icon": "https://ninjapromo.io/wp-content/uploads/2023/02/services-smm.svg",
+    "link": "https://ninjapromo.io/services/social-media",
+    "size": { "width": "37", "height": "37" },
+    "content": "Building and managing online communities for blockchain projects, including Twitter and discord platforms."
+  },
+  {
+    "title": "Social Media Marketing",
+    "link": "https://ninjapromo.io/services/seo",
+    "icon": "https://ninjapromo.io/wp-content/uploads/2023/02/services-seo.svg",
+    "size": { "width": "30", "height": "30" },
+    "content": "Developing and executing social media strategies tailored for the Web3 ecosystem, targeting platforms like Twitter, Telegram, Discord, and Reddit."
+  },
+  {
+    "title": "Content Marketing",
+    "icon": "https://ninjapromo.io/wp-content/uploads/2022/12/ppc.svg",
+    "link": "https://ninjapromo.io/services/paid-media",
+    "size": { "width": "37", "height": "37" },
+    "content": "Developing content strategies and producing blog articles, whitepapers, case studies, and educational materials targeting specific blockchain audiences."
+  },
+  {
+    "title": "Influencer Marketing",
+    "icon": "https://ninjapromo.io/wp-content/uploads/2023/02/services-influencer.svg",
+    "link": "https://ninjapromo.io/services/influencer-marketing",
+    "size": { "width": "37", "height": "37" },
+    "content": " Identifying and collaborating with influential figures in the blockchain and crypto space to amplify brand reach and credibility."
+  },
+  {
+    "title": "Marketing Strategy",
+    "icon": "https://ninjapromo.io/wp-content/uploads/2023/02/services-pr.svg",
+    "link": "https://ninjapromo.io/services/public-relations",
+    "size": { "width": "35", "height": "35" },
+    "content": "Developing marketing strategies that are  custom made for ouR WEB 3 PARTNERS needs"
+  },
+  {
+    "title": "Token Marketing & ICO/IDO Launchl",
+    "icon": "https://ninjapromo.io/wp-content/uploads/2023/02/services-paid2.svg",
+    "link": "https://ninjapromo.io/services/paid-social",
+    "size": { "width": "37", "height": "37" },
+    "content": "Planning and executing marketing campaigns to raise awareness and promote Initial Coin Offerings (ICOs) or Initial DEX Offerings (IDOs)."
+  }
+]

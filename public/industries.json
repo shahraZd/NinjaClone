@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Social Media",
+    "icon": "https://ninjapromo.io/wp-content/uploads/2023/02/services-smm.svg",
+    "link": "https://ninjapromo.io/services/social-media",
+    "size": { "width": "37", "height": "37" },
+    "content": "Engage your audience on their favourite platforms to foster meaningful relationships that build trust."
+  },
+  {
+    "link": "https://ninjapromo.io/services/seo",
+    "title": "SEO",
+    "icon": "https://ninjapromo.io/wp-content/uploads/2023/02/services-seo.svg",
+    "size": { "width": "30", "height": "30" },
+    "content": "Employ strategic SEO to increase your visibility in search results and generate a higher volume of targeted traffic."
+  },
+  {
+    "title": "Paid Media",
+    "icon": "https://ninjapromo.io/wp-content/uploads/2022/12/ppc.svg",
+    "link": "https://ninjapromo.io/services/paid-media",
+    "size": { "width": "37", "height": "37" },
+    "content": "Maximise ROI on your ad spend through paid media specialists with a proven formula for multiplying revenue."
+  },
+  {
+    "title": "Influencer Marketing",
+    "icon": "https://ninjapromo.io/wp-content/uploads/2023/02/services-influencer.svg",
+    "link": "https://ninjapromo.io/services/influencer-marketing",
+    "size": { "width": "37", "height": "37" },
+    "content": " Turbo-boost engagement and sales with strategic influencer advertising campaigns that create a big buzz around your brand across the web."
+  },
+  {
+    "title": "Public Relations",
+    "icon": "https://ninjapromo.io/wp-content/uploads/2023/02/services-pr.svg",
+    "link": "https://ninjapromo.io/services/public-relations",
+    "size": { "width": "35", "height": "35" },
+    "content": "Leverage stellar media relations expertise to boost brand exposure and positively influence public opinion"
+  },
+  {
+    "title": "Paid Social",
+    "icon": "https://ninjapromo.io/wp-content/uploads/2023/02/services-paid2.svg",
+    "link": "https://ninjapromo.io/services/paid-social",
+    "size": { "width": "37", "height": "37" },
+    "content": "Extend the reach of your brand through laser-focused social ads that amplify awareness and propel sales"
+  },
+  {
+    "title": "Video Productionl",
+    "icon": "https://ninjapromo.io/wp-content/uploads/2023/02/services-video.svg",
+    "link": "https://ninjapromo.io/services/paid-social",
+    "size": { "width": "37", "height": "37" },
+    "content": "Cater to the growing hunger for multimedia digital content through attention-grabbing video production"
+  },
+  {
+    "title": "Public Relations",
+    "icon": "https://ninjapromo.io/wp-content/uploads/2023/02/services-pr.svg",
+    "link": "https://ninjapromo.io/services/public-relations",
+    "size": { "width": "35", "height": "35" },
+    "content": "Leverage stellar media relations expertise to boost brand exposure and positively influence public opinion"
+  },
+  {
+    "title": "Paid Social",
+    "icon": "https://ninjapromo.io/wp-content/uploads/2023/02/services-paid2.svg",
+    "link": "https://ninjapromo.io/services/paid-social",
+    "size": { "width": "37", "height": "37" },
+    "content": "Extend the reach of your brand through laser-focused social ads that amplify awareness and propel sales"
+  },
+  {
+    "title": "Video Productionl",
+    "icon": "https://ninjapromo.io/wp-content/uploads/2023/02/services-video.svg",
+    "link": "https://ninjapromo.io/services/paid-social",
+    "size": { "width": "37", "height": "37" },
+    "content": "Cater to the growing hunger for multimedia digital content through attention-grabbing video production"
+  }
+]
