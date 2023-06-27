@@ -1,4 +1,4 @@
-import { ButtonFilled } from "../../components/Button";
+import { ButtonFilled } from "@/components/Button";
 
 export default function () {
   return (

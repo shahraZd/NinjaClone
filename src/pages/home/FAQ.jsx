@@ -1,6 +1,6 @@
 "use client";
 
-import faq from "../../../public/faq.json";
+import faq from "pub/faq.json";
 
 const FAQ = () => {
   return (

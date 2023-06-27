@@ -1,6 +1,6 @@
 "use client";
 
-import testimonials from "../../../public/testimonials.json";
+import testimonials from "pub/testimonials.json";
 import { useRef } from "react";
 import { useDraggable } from "react-use-draggable-scroll";
 

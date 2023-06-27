@@ -1,5 +1,5 @@
-import { Card } from "../../components/Card";
-import services from "../../../public/services.json";
+import { Card } from "@/components/Card";
+import services from "pub/services.json";
 
 export default function () {
   return (
