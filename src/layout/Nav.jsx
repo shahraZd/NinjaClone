@@ -5,7 +5,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import itemData from "../../public/menu.json";
 import Link from "next/link";
 import "./navbar.css";
-import { ButtonFilled } from "../components/Button";
+import { ButtonFilled, ButtonOutlined } from "../components/Button";
 import Image from "next/image";
 import logo from "pub/hypefarm-logo.svg";
 
@@ -16,6 +16,7 @@ function Nav() {
   const [scroll, setScroll] = useState(false);
 
   useEffect(() => {
+    setSize(window.innerWidth);
     const storeScroll = () => {
       document.documentElement.dataset.scroll = window.scrollY;
       window.scrollY == 0 ? setScroll(false) : setScroll(true);
@@ -39,6 +40,7 @@ function Nav() {
   const menuToggleHandler = () => {
     setMenuOpen((prev) => !prev);
   };
+  console.log(size);
   return (
     <header
       className={`header ${
@@ -78,9 +80,10 @@ function Nav() {
             </li>
           </ul>
         </nav>
-        <div className={`${size <= 768 ? "hidden" : "block"}`}>
+        <div className={`${size < 768 ? "hidden" : "block"}`}>
           <Link href="/contact">
-            <ButtonFilled content={"Book Intro Call"} />
+            {/* <ButtonFilled content={"Book Intro Call"} /> */}
+            <ButtonOutlined content={"Book Intro Call"} />
           </Link>
         </div>
         {size <= 768 && (

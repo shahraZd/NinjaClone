@@ -5,7 +5,7 @@ const Hero = () => {
     <div className=" text-center min-h-screen flex justify-center  ">
       {/* <div className="hero_section_bg "></div> */}
       <iframe
-        src="http://127.0.0.1:5500/"
+        src="http://127.0.0.1:5500/gradientHero"
         width="100%"
         frameborder="0"
         height="auto"
