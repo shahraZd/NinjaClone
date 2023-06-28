@@ -1,8 +1,18 @@
+// import BgHero from "../../../public/gradientHero/";
+
 const Hero = () => {
   return (
     <div className=" text-center min-h-screen flex justify-center  ">
-      <div className="hero_section_bg "></div>
-      <div className=" hero_section_container ">
+      {/* <div className="hero_section_bg "></div> */}
+      <iframe
+        src="http://127.0.0.1:5500/"
+        width="100%"
+        frameborder="0"
+        height="auto"
+        className="hero_section_bg "
+      ></iframe>
+
+      <div className=" hero_section_container   ">
         <div className=" mb-[4.25rem] sm:mb-[1.8rem] box-border  max-w-full">
           <h1 className=" text-5xl sm:text-3xl ">
             Your Full Service Digital Marketing Company
@@ -27,6 +37,7 @@ const Hero = () => {
           for businesses.
         </p>
       </div>
+      {/* <BgHero /> */}
     </div>
   );
 };

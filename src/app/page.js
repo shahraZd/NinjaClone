@@ -1,12 +1,6 @@
-import Link from "next/link";
-import Body from "../layout/Body";
+// import Body from "../layout/Body";
+import Home from "@/pages/home";
 
-export default function () {
-  return (
-    <div>
-      {/* <Nav /> */}
-      <Body />
-      {/* <Footer /> */}
-    </div>
-  );
-}
+const App = () => <Home />;
+
+export default App;

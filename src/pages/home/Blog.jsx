@@ -1,9 +1,5 @@
-export default function () {
-    return (
-      <div>
-  Blog
-  
-      </div>
-    )
-  }
-  
+const Blog = () => {
+  return <div>Blog</div>;
+};
+
+export default Blog;

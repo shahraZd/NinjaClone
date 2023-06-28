@@ -9,7 +9,7 @@ const FAQ = () => {
       </h1>
       <div className="mx-auto w-1/2 sm:w-full">
         {faq.map((e) => (
-          <Accordion item={e} />
+          <Accordion item={e} key={e.order} />
         ))}
       </div>
     </section>

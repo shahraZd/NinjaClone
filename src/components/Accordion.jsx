@@ -37,7 +37,7 @@ const MyAccordion = ({ item }) => {
     unmount: { scale: 0.9 },
   };
   return (
-    <Fragment key={item.order}>
+    <Fragment>
       <Accordion
         open={open === item.order}
         icon={<Icon id={item.order} open={open} />}

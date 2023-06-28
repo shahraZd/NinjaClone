@@ -23,6 +23,7 @@
 .header-content {
   overflow: hidden;
   color: #fff;
+  padding: 30px;
   margin: 0 auto;
   max-width: 1920px;
   height: 100%;
@@ -41,7 +42,7 @@
 }
 
 .menu {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   justify-content: center;
 

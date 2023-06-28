@@ -23,17 +23,15 @@ const Testimonials = () => {
       >
         {testimonials.map((e, i) => (
           <div key={i} className="reviews_item ">
-            {/* <div class=""> */}
-            <p class="text-base sm:text-sm text-left my-9">{e.content}</p>
+            <p className="text-base sm:text-sm text-left my-9">{e.content}</p>
             <div>
-              <p class="text-primary-200 font-xl">
+              <p className="text-primary-200 font-xl">
                 <span>{e.name}</span>
               </p>
-              <p class="text-primary-200">
+              <p className="text-primary-200">
                 <span>{e.position}</span>
               </p>
             </div>
-            {/* </div> */}
           </div>
         ))}
       </div>

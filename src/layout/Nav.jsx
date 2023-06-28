@@ -6,6 +6,8 @@ import itemData from "../../public/menu.json";
 import Link from "next/link";
 import "./navbar.css";
 import { ButtonFilled } from "../components/Button";
+import Image from "next/image";
+import logo from "pub/hypefarm-logo.svg";
 
 function Nav() {
   const [isHover, setIsHover] = useState(false);
@@ -47,7 +49,16 @@ function Nav() {
     >
       <div className="header-content ">
         <Link href="/" className="header__content__logo" passHref>
-          {/* <img src="/logo.jpg" alt="HypeFarm logo" /> */}
+          {/* <Image src={logo} alt="HypeFarm logo" width={50} height={150} /> */}
+          <Image
+            alt="HypeFarm logo"
+            data-src={logo}
+            class=" lazyloaded"
+            src={logo}
+            width="130"
+            height="46"
+            className="text-white"
+          />
         </Link>
         <nav
           className={` ${
@@ -60,15 +71,18 @@ function Nav() {
                 <Link href={e.link}>{e.title}</Link>
               </li>
             ))}
-          </ul>
-          <ul>
-            <li>
+            <li className={`${size > 768 ? "hidden" : "block"}`}>
               <Link href="/contact">
                 <ButtonFilled content={"Book Intro Call"} />
               </Link>
             </li>
           </ul>
         </nav>
+        <div className={`${size <= 768 ? "hidden" : "block"}`}>
+          <Link href="/contact">
+            <ButtonFilled content={"Book Intro Call"} />
+          </Link>
+        </div>
         {size <= 768 && (
           <div className="toggle">
             {!menuOpen ? (

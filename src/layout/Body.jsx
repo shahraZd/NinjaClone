@@ -1,10 +1,10 @@
-import Home from "../pages/home";
+// import Home from "../pages/home";
 
-export default function () {
-    return (
-       <div>
-         <Home/>
-       
-       </div>
-     )
-  }
+// export default function () {
+//     return (
+//        <div>
+//          <Home/>
+
+//        </div>
+//      )
+//   }
