@@ -52,7 +52,7 @@ function Nav() {
       <div className="header-content ">
         <Link href="/" className="header__content__logo" passHref>
           {/* <Image src={logo} alt="HypeFarm logo" width={50} height={150} /> */}
-          <Image
+          {/* <Image
             alt="HypeFarm logo"
             data-src={logo}
             class=" lazyloaded"
@@ -60,7 +60,7 @@ function Nav() {
             width="130"
             height="46"
             className="text-white"
-          />
+          /> */}
         </Link>
         <nav
           className={` ${
